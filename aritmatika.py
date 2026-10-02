@@ -51,7 +51,7 @@ def Pangkat(A, N):
         return A * Pangkat(A, N - 1)
 
 # Aplikasi
-print(Kurang(10, 4))
-print(Kali(6, 7))
-print(Bagi(17, 5))
-print(Pangkat(2, 10))
+print(Kurang(10, 4)) # 6
+print(Kali(6, 7)) # 42
+print(Bagi(17, 5)) # 3
+print(Pangkat(2, 10)) # 1024
